@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="SCREEN 3"/>
+
+<TextView
+    android:id="@+id/result_nama_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:minHeight="45dp"
+    tools:text="Nama Anda"/>
+
+<TextView
+    android:id="@+id/result_usia_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:minHeight="45dp"
+    android:visibility="gone"
+    tools:text="Usia" />
+
+<TextView
+    android:id="@+id/result_alamat_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:minHeight="45dp"
+    android:visibility="gone"
+    tools:text="Alamat" />
+
+<TextView
+    android:id="@+id/result_pekerjaan_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:minHeight="45dp"
+    android:visibility="gone"
+    tools:text="Pekerjaan" />
+
+<Button
+    android:id="@+id/go_to_screen4_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:text="Go to Screen 4" />
+
+</LinearLayout>
